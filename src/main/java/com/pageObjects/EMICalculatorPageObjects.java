@@ -39,15 +39,13 @@ public class EMICalculatorPageObjects extends pageBaseClass {
 	public static WebElement readMore;
 
 	//Principal Amount for first month WebElement
-	//@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/main[1]/article[1]/div[3]/div[1]/div[3]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]")
-	@FindBy(xpath="//*[@id="loanamount"]")
+	@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/main[1]/article[1]/div[3]/div[1]/div[3]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]")
 	public static WebElement principalAmount;
 	
 	
 
 	//Interest amount for first month WebElement
-	//@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/main[1]/article[1]/div[3]/div[1]/div[3]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]")
-	@FindBy(xpath="//*[@id="emitotalinterest"]/p/span")
-	ublic static WebElement interestAmount;
+	@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/main[1]/article[1]/div[3]/div[1]/div[3]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]")
+	public static WebElement interestAmount;
 
 }
