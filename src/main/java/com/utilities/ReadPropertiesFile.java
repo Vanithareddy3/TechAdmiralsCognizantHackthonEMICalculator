@@ -13,7 +13,7 @@ public class ReadPropertiesFile {
 
 			try {
 				FileInputStream file = new FileInputStream(
-						System.getProperty("user.dir") + "\\resources\\config.properties");
+						System.getProperty("user.dir") + "/resources/config.properties");
 				prop.load(file);
 			} catch (Exception e) {
 				e.printStackTrace();
