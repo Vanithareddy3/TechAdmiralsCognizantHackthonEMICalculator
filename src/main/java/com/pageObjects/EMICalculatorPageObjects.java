@@ -15,7 +15,7 @@ public class EMICalculatorPageObjects extends pageBaseClass {
 	}
 	
 	//CarLoan WebElement
-	@FindBy(xpath = "//*[@id="car-loan"]/a")
+	@FindBy(xpath = "//*[@id=\"car-loan\"]/a")
 	public static WebElement carLoan;
 	
 	//Car loan Amount input WebElement
